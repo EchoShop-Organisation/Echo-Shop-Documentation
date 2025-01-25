@@ -128,6 +128,7 @@ Enable functionality for:
     - Start marketing to your target audience to onboard your first users.
    
 # Project Plan and Timeline
+# Project Plan and Timeline
 
 ## Why This Order Works in Real-World Practice
 - **Iterative Development**: Develop and test in small, manageable steps, ensuring each part works before moving on to the next.
@@ -189,3 +190,178 @@ Enable functionality for:
   - Fix bugs and improve backend/frontend communication.
   - Refine product listing and shopping cart flows.
 
+---
+
+### Phase 3: Core Features Implementation (Week 6–8)
+#### Week 6:
+- **Backend Development**:
+  - Implement seller dashboard API (to view and manage their product listings).
+  - Develop buyer order history API.
+- **Frontend Development**:
+  - Build seller dashboard page.
+  - Build order history page for buyers.
+
+#### Week 7:
+- **Payment Gateway**:
+  - Integrate Stripe or PayPal for payment processing in the backend.
+  - Develop a secure checkout flow (frontend and backend integration).
+- **Frontend Development**:
+  - Implement checkout page and integrate with the payment gateway.
+
+#### Week 8:
+- **Testing**:
+  - Thorough testing of the checkout and payment flow.
+  - Fix bugs related to orders and payments.
+- **UI Improvements**:
+  - Start styling key pages (basic responsiveness with Tailwind CSS or Material-UI).
+
+---
+
+### Phase 4: UI/UX and Polish (Week 9–11)
+#### Week 9:
+- **UI Enhancements**:
+  - Polish the UI for:
+    - Homepage with product categories.
+    - Product details page.
+    - Shopping cart and checkout.
+  - Make the platform fully responsive for mobile and desktop devices.
+
+#### Week 10:
+- **Admin Panel**:
+  - Add functionality for admins to:
+    - Manage users (deactivate accounts).
+    - Remove inappropriate product listings.
+- **Beta Testing**:
+  - Conduct user testing with a small group of beta testers.
+
+#### Week 11:
+- **Feedback and Iteration**:
+  - Gather and analyze feedback from beta testers.
+  - Fix usability issues or add small improvements.
+
+---
+
+### Phase 5: Final Testing and Deployment (Week 12–15)
+#### Week 12:
+- **Testing**:
+  - Perform unit testing and integration testing for all features.
+  - Conduct stress tests to ensure the platform can handle multiple users.
+
+#### Week 13:
+- **Deployment**:
+  - Deploy backend (Django) on a cloud platform (AWS, Heroku, or DigitalOcean).
+  - Deploy frontend (React) on Vercel or Netlify.
+  - Perform end-to-end testing on the live environment.
+
+#### Week 14:
+- **Final Optimizations**:
+  - Fix any remaining bugs.
+  - Add performance optimizations and SEO improvements.
+
+#### Week 15:
+- **Launch**:
+  - Officially launch the platform MVP.
+  - Start marketing to your target audience and onboard your first users.
+
+---
+
+## Key Milestones
+- **Week 5**: Basic platform with product listings and shopping cart.
+- **Week 8**: Functional MVP with core features (orders and payments).
+- **Week 11**: Polished platform ready for testing with real users.
+- **Week 15**: Full deployment and public launch.
+
+---
+
+## MVP Feature List (Including Authentication)
+### User Authentication:
+- Register, log in, and log out.
+- Password reset.
+- Role-based access for buyers, sellers, and admins.
+- Optional: Social login (e.g., Google, Facebook).
+
+### User Profiles:
+- **Buyers**: Manage profile and view order history.
+- **Sellers**: Manage profile, product listings, and sales.
+- **Admins**: Manage users, products, and disputes.
+
+### Product Listings:
+- Sellers can list products with details (name, price, condition, etc.).
+- Buyers can search, filter, and view products.
+
+### Shopping Cart & Checkout:
+- Buyers can add items to the cart, checkout, and make payments.
+- Secure payment gateway integration.
+
+### Order Management:
+- **Buyers**: Track orders.
+- **Sellers**: View and update orders.
+
+### Admin Panel:
+- Monitor platform activity, users, and products.
+
+### Ratings & Reviews (optional):
+- Buyers can leave reviews for products.
+
+---
+
+## Why the MVP is Sellable
+### Target Market Alignment:
+By focusing on eco-friendly and second-hand products, you're entering a growing niche that aligns with current consumer values like sustainability and affordability.
+
+### Solving Pain Points:
+Platforms like eBay are general-purpose and often lack a focus on specific niches. Your platform’s focus on eco-conscious buyers creates an opportunity to attract a dedicated audience.
+
+### Scalable Foundation:
+By implementing fundamental features (authentication, product listings, checkout, etc.), you establish a strong foundation to build upon. Advanced features like AI recommendations or analytics can be added as the platform grows.
+
+### Revenue Potential:
+**Potential Monetization Options**:
+- Seller fees: Charge sellers a commission per sale or for premium features like better visibility.
+- Subscription plans: Offer premium plans for sellers to boost their products.
+- Advertising: Allow sellers to advertise their products on the platform.
+
+## Use Cases
+### Actors:
+- **Buyer**: A user who browses and purchases eco-friendly or second-hand products.
+- **Seller**: A user who lists products for sale.
+- **Admin**: A user who moderates the platform and manages users/products.
+- **Payment Gateway (External System)**: Handles payment processing.
+
+### Use Cases:
+#### Buyer:
+- Register/Login.
+- Search and Browse Products.
+- View Product Details.
+- Add to Cart.
+- Checkout and Make Payment.
+- Track Orders.
+- Leave Reviews/Ratings (Optional for MVP).
+
+#### Seller:
+- Register/Login.
+- Create Product Listings.
+- Manage Product Listings (Edit/Delete).
+- View Orders.
+- Manage Profile.
+
+#### Admin:
+- Manage Users (Ban/Approve Accounts).
+- Manage Product Listings (Approve/Remove).
+- View Platform Analytics (Optional for MVP).
+
+#### Payment Gateway:
+- Handle Payment Transactions.
+
+---
+
+## Policies Ideas
+- **No Scammers**: Strict measures to prevent fraudulent activities on the platform.
+- **Eco-Friendly Products**: Products listed must adhere to eco-friendly or sustainable standards.
+- **Used Products**: Focus on selling second-hand or pre-loved items to promote sustainability.
+- **Minimum Existence Period**: Products must have been in existence for at least a year (exceptions for special cases).
+- **Ethical Practices**: All users must comply with ethical practices and policies of the platform.
+
+## Use Case Diagram
+
+![Use Case Diagram](assets/use_case_diagram.png)
