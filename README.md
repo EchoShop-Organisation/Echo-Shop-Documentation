@@ -1,5 +1,7 @@
 # Echo-Shop-Documentation
 
+Requirements document at https://docs.google.com/document/d/1qjhOtQnjdDVDRzn9FZJKOkQuszYHZ3A12Oo_8TfUb2I/edit?usp=sharing
+
 ## Project Overview
 
 EchoShop Platform is an online marketplace focusing on a specific niche: eco-friendly products, handmade goods, or second-hand electronics. The platform bridges buyers and sellers, empowering small entrepreneurs and catering to consumers who value sustainability and uniqueness. The niche focus ensures a well defined market, enabling better targeting and reduced competition compared to other general marketplaces.
